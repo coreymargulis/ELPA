@@ -1,0 +1,69 @@
+.next-project {
+	text-align: left;
+	color: $white;
+	padding: 4em 30px 4.25em 30px;
+	margin: 0 auto;
+	max-width: 730px;
+	transition: all .4s ease-in-out;
+	position: relative;
+
+	@include breakpoint($bp-medium) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	&:before, &:after {
+    content: "";
+    position: absolute;
+    background: inherit;  /* Match the background */
+    top: 0;
+    bottom: 0;
+    width: 9999px;  /* some huge width */
+    display: block;
+  }
+	&:before {
+		right: 100%;
+	}
+	&:after {
+		left: 100%;
+	}
+
+	&:hover {
+		opacity: .95 !important;
+
+	}
+
+	#next-project {
+		font-family: $sans-regular;
+		margin-bottom: 20px;
+	}
+	h3 {
+		margin: 0px;
+		font-family: $serif-bold;
+	}
+}
+
+// .logo-footer {
+// 	padding: 1em 0;
+// }
+//
+// #logo-footer {
+// 	width: 200px;
+// 	padding: 20px 35px;
+// 	display: block;
+// 	/* position: relative; */
+// 	margin: 0 auto;
+// 	text-align: center;
+// 	font-size: .8em;
+// 	color: $white;
+// }
+// .active {
+// 	opacity: 1;
+// }
+//
+// .logo-container--pinned {
+//     display: block;
+// }
+// .logo-container--unpinned {
+//     display: none;
+// }
