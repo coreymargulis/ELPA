@@ -946,7 +946,7 @@ h1, h2, h3, h4, p, ul, .inset-container {
       max-width: 80%; } }
 
 body {
-  font-family: "Minotaur Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5em;
   -webkit-font-smoothing: antialiased; }
@@ -982,7 +982,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-family: "Minotaur Sans Regular", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Sans Light", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.45em;
   font-size: 20px; }
   @media (min-width: 768px) {
@@ -990,7 +990,7 @@ h1, .h1 {
       font-size: 30px; } }
 
 h2, .h2 {
-  font-family: "Minotaur Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.6em; }
   @media (min-width: 768px) {
@@ -998,7 +998,7 @@ h2, .h2 {
       font-size: 30px; } }
 
 h3, .h3 {
-  font-family: "Minotaur Sans Regular", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Sans Light", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px; }
   @media (min-width: 768px) {
     h3, .h3 {
@@ -1190,7 +1190,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   .next-project:hover {
     opacity: .95 !important; }
   .next-project #next-project {
-    font-family: "Minotaur Sans Regular", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Minotaur Sans Light", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 20px; }
   .next-project h3 {
     margin: 0px;
@@ -1205,7 +1205,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   position: fixed;
   display: block;
   left: 0;
-  font-family: "Minotaur Sans Regular", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Sans Light", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   z-index: 1000;
   font-size: 16px;
   padding: 25px 20px; }
@@ -1220,7 +1220,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   padding: 20px 35px;
   top: 15px;
   right: 0;
-  font-family: "Minotaur Sans Regular", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Sans Light", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: .85em;
   z-index: 1000; }
 
@@ -1247,7 +1247,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     .intro {
       max-width: 1030px; } }
   .intro h1 {
-    font-family: "Minotaur Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Minotaur Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     margin-bottom: .5em;
     padding: 0;
@@ -1333,7 +1333,7 @@ nav {
           font-size: 24px;
           line-height: 1.5em; } }
     nav li .project-tagline {
-      font-family: "Minotaur Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Minotaur Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 16px; }
 
 /* end nav */
@@ -1426,7 +1426,7 @@ nav {
   position: fixed;
   display: block;
   left: 0;
-  font-family: "Minotaur Sans Regular", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Sans Light", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   z-index: 1000;
   font-size: 16px;
   padding: 25px 20px; }
@@ -1441,7 +1441,7 @@ nav {
   padding: 20px 35px;
   top: 15px;
   right: 0;
-  font-family: "Minotaur Sans Regular", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Minotaur Sans Light", "Neuzeit S LT Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: .85em;
   z-index: 1000; }
 
