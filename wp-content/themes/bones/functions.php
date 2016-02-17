@@ -12,7 +12,7 @@ sidebars, comments, etc.
 require_once( 'library/bones.php' );
 
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
-// require_once( 'library/admin.php' );
+require_once( 'library/admin.php' );
 
 /*********************
 LAUNCH BONES
@@ -73,8 +73,8 @@ if ( ! isset( $content_width ) ) {
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
-add_image_size( 'bones-thumb-600', 600, 150, true );
-add_image_size( 'bones-thumb-300', 300, 100, true );
+// add_image_size( 'bones-thumb-600', 600, 150, true );
+// add_image_size( 'bones-thumb-300', 300, 100, true );
 
 /*
 to add more sizes, simply copy a line from above
@@ -96,14 +96,14 @@ You can change the names and dimensions to whatever
 you like. Enjoy!
 */
 
-add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
-
-function bones_custom_image_sizes( $sizes ) {
-    return array_merge( $sizes, array(
-        'bones-thumb-600' => __('600px by 150px'),
-        'bones-thumb-300' => __('300px by 100px'),
-    ) );
-}
+// add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
+//
+// function bones_custom_image_sizes( $sizes ) {
+//     return array_merge( $sizes, array(
+//         'bones-thumb-600' => __('600px by 150px'),
+//         'bones-thumb-300' => __('300px by 100px'),
+//     ) );
+// }
 
 /*
 The function above adds the ability to use the dropdown menu to select
@@ -115,14 +115,14 @@ new image size.
 
 /************* THEME CUSTOMIZE *********************/
 
-/* 
+/*
   A good tutorial for creating your own Sections, Controls and Settings:
   http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722
-  
+
   Good articles on modifying the default options:
   http://natko.com/changing-default-wordpress-theme-customization-api-sections/
   http://code.tutsplus.com/tutorials/digging-into-the-theme-customizer-components--wp-27162
-  
+
   To do:
   - Create a js for the postmessage transport method
   - Create some sanitize functions to sanitize inputs
@@ -132,7 +132,7 @@ new image size.
 function bones_theme_customizer($wp_customize) {
   // $wp_customize calls go here.
   //
-  // Uncomment the below lines to remove the default customize sections 
+  // Uncomment the below lines to remove the default customize sections
 
   // $wp_customize->remove_section('title_tagline');
   // $wp_customize->remove_section('colors');
@@ -142,7 +142,7 @@ function bones_theme_customizer($wp_customize) {
 
   // Uncomment the below lines to remove the default controls
   // $wp_customize->remove_control('blogdescription');
-  
+
   // Uncomment the following to change the default section titles
   // $wp_customize->get_section('colors')->title = __( 'Theme Colors' );
   // $wp_customize->get_section('background_image')->title = __( 'Images' );
@@ -243,5 +243,42 @@ function bones_fonts() {
 }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
+
+
+//
+
+add_filter( 'acf/fields/wysiwyg/toolbars' , 'my_toolbars'  );
+function my_toolbars( $toolbars )
+{
+	// Uncomment to view format of $toolbars
+	/*
+	echo '< pre >';
+		print_r($toolbars);
+	echo '< /pre >';
+	die;
+	*/
+
+	// Add a new toolbar called "Very Simple"
+	// - this toolbar has only 1 row of buttons
+	$toolbars['Simple' ] = array();
+	$toolbars['Simple' ][1] = array('bold' , 'italic' , 'underline', 'strikethrough', 'blockquote', 'bullist', 'numlist','link','unlink' );
+	// return $toolbars - IMPORTANT!
+	return $toolbars;
+}
+
+// Change title entry text
+function change_default_title( $title ){
+     $screen = get_current_screen();
+
+     if  ( 'class' == $screen->post_type ) {
+          $title = 'Enter Workshop or Class Name';
+     }
+
+     else {}
+
+     return $title;
+}
+
+add_filter( 'enter_title_here', 'change_default_title' );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

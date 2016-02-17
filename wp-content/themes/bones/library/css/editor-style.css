@@ -346,12 +346,12 @@ BOX SIZING
   /* @include box-sizing(border-box); */
   /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
-  width: 731px;
+  /*width: 731px;*/
   font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
-  -webkit-font-smoothing: antialiased;
+  /*color: #5c6b80;*/
+  -webkit-font-smoothing: auto;
   /*********************
 	LINK STYLES
 	*********************/

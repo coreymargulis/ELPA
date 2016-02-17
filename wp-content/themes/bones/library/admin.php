@@ -144,4 +144,47 @@ function bones_custom_admin_footer() {
 // adding it to the admin area
 add_filter( 'admin_footer_text', 'bones_custom_admin_footer' );
 
+//Custom Admin Menu
+
+// Rename Posts to News in Menu
+function wptutsplus_change_post_menu_label() {
+    global $menu;
+    global $submenu;
+    $menu[5][0] = 'Events';
+    $submenu['edit.php'][5][0] = 'Events';
+    $submenu['edit.php'][10][0] = 'Add Event';
+}
+add_action( 'admin_menu', 'wptutsplus_change_post_menu_label' );
+
+// Remove menu items for all but Administrators
+function wptutsplus_remove_comments_menu_item() {
+     $user = wp_get_current_user();
+     if ( ! $user->has_cap( 'manage_options' ) )
+    {
+        remove_menu_page( 'edit.php?post_type=page' );
+				remove_menu_page( 'tools.php' );
+        remove_submenu_page( 'themes.php','themes.php' );
+        remove_submenu_page( 'themes.php','customize.php' );
+        remove_submenu_page( 'themes.php','widgets.php' );
+        remove_submenu_page( 'themes.php','options-general.php' );
+        remove_submenu_page( 'themes.php','theme-editor.php' );
+    }
+}
+add_action( 'admin_menu', 'wptutsplus_remove_comments_menu_item' );
+
+// Move Pages above Media
+function wptutsplus_change_menu_order( $menu_order ) {
+    return array(
+        'index.php',
+        'edit.php?post_type=page',
+				'edit.php?post_type=members',
+				'edit.php',
+				'separator1',
+        'upload.php',
+        'edit-comments.php',
+    );
+}
+add_filter( 'custom_menu_order', '__return_true' );
+add_filter( 'menu_order', 'wptutsplus_change_menu_order' );
+
 ?>

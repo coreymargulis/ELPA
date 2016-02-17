@@ -52,7 +52,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-family: $sans-regular;
+	font-family: $sans;
 	line-height: 1.45em;
 	font-size: 20px;
 	@include breakpoint($bp-medium) {
@@ -71,7 +71,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-family: $sans-regular;
+	font-family: $sans;
 	font-size: 18px;
 	@include breakpoint($bp-medium) {
 		font-size: 22px;
@@ -79,7 +79,7 @@ h3, .h3 {
 }
 
 // h3.project {
-// 	font-family: $sans-regular;
+// 	font-family: $sans;
 // 	font-size: 22px;
 // }
 
@@ -112,7 +112,7 @@ p, ul {
 .caption {
 	font-size: 12px;
 	line-height: 1.65em;
-	font-family: $sans-regular;
+	font-family: $sans;
 	-webkit-font-smoothing: antialiased !important;
 	color: $color-text-light;
 	text-align: left !important;

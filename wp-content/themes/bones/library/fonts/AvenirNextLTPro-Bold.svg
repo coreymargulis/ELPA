@@ -4,12 +4,12 @@
 <metadata>
 Created by FontPrep 20130207 at Tue Feb 16 21:30:30 2016
  By Corey Margulis
-Copyright (c) 2004 Linotype Library GmbH, www.linotype.com. All rights reserved. This software may not be reproduced, used, displayed, modified, disclosed or transferred without the express written approval of Linotype Library GmbH. Avenir is a trademark of Heidelberger Druckmaschinen AG, exclusively licensed through Linotype Library GmbH, and may be registered in certain jurisdictions. This typeface is original artwork of Adrian Frutiger. The design may be protected in certain jurisdictions.
+Copyright (c) 2004 Linotype Library GmbH, www.linotype.com. All rights reserved. This software may not be reproduced, used, displayed, modified, disclosed or transferred without the express written approval of Linotype Library GmbH. ../fonts/Avenir is a trademark of Heidelberger Druckmaschinen AG, exclusively licensed through Linotype Library GmbH, and may be registered in certain jurisdictions. This typeface is original artwork of Adrian Frutiger. The design may be protected in certain jurisdictions.
 </metadata>
 <defs>
 <font id="add6a56a5a62396eaea1929a4942a5a6" horiz-adv-x='1024' >
   <font-face 
-    font-family="AvenirNextLTPro-Bold"
+    font-family="../fonts/AvenirNextLTPro-Bold"
     font-weight="700"
     font-stretch="normal"
     units-per-em="2048"

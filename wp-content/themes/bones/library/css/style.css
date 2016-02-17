@@ -438,25 +438,25 @@ span.apostrophe {
 
 @font-face {
   font-family: 'AvenirNext LT Pro Bold';
-  src: url("AvenirNextLTPro-Bold.eot");
+  src: url("../fonts/../fonts/AvenirNextLTPro-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("AvenirNextLTPro-Bold.eot?#iefix") format("embedded-opentype"), url("AvenirNextLTPro-Bold.woff") format("woff"), url("AvenirNextLTPro-Bold.ttf") format("truetype"), url("AvenirNextLTPro-Bold.svg#add6a56a5a62396eaea1929a4942a5a6") format("svg");
+  src: url("../fonts/AvenirNextLTPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro-Bold.woff") format("woff"), url("../fonts/AvenirNextLTPro-Bold.ttf") format("truetype"), url("../fonts/AvenirNextLTPro-Bold.svg#add6a56a5a62396eaea1929a4942a5a6") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 700; }
 @font-face {
   font-family: 'AvenirNext LT Pro Italic';
-  src: url("AvenirNextLTPro-It.eot");
+  src: url("../fonts/AvenirNextLTPro-It.eot");
   /* IE9 Compat Modes */
-  src: url("AvenirNextLTPro-It.eot?#iefix") format("embedded-opentype"), url("AvenirNextLTPro-It.woff") format("woff"), url("AvenirNextLTPro-It.ttf") format("truetype"), url("AvenirNextLTPro-It.svg#cf83888b4950ddf4d0aaf39a5b16bb1e") format("svg");
+  src: url("../fonts/AvenirNextLTPro-It.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro-It.woff") format("woff"), url("../fonts/AvenirNextLTPro-It.ttf") format("truetype"), url("../fonts/AvenirNextLTPro-It.svg#cf83888b4950ddf4d0aaf39a5b16bb1e") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
 @font-face {
   font-family: 'AvenirNext LT Pro Regular';
-  src: url("AvenirNextLTPro-Regular.eot");
+  src: url("../fonts/AvenirNextLTPro-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("AvenirNextLTPro-Regular.eot?#iefix") format("embedded-opentype"), url("AvenirNextLTPro-Regular.woff") format("woff"), url("AvenirNextLTPro-Regular.ttf") format("truetype"), url("AvenirNextLTPro-Regular.svg#fa20c367c6a148cda65f50238befb5f2") format("svg");
+  src: url("../fonts/AvenirNextLTPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro-Regular.woff") format("woff"), url("../fonts/AvenirNextLTPro-Regular.ttf") format("truetype"), url("../fonts/AvenirNextLTPro-Regular.svg#fa20c367c6a148cda65f50238befb5f2") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
@@ -787,8 +787,8 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  color: #3b3b3b;
-  background-color: #efefef;
+  color: #4a4a4a;
+  background-color: #f8f8f8;
   overflow-x: hidden;
   transition: .75s ease-out; }
 
@@ -799,7 +799,7 @@ body.home #logo {
   width: 100%;
   padding: 0px 30px;
   position: relative;
-  background-color: #efefef;
+  background-color: #f8f8f8;
   z-index: 9999; }
   @media (min-width: 768px) {
     .wrap {
@@ -934,7 +934,7 @@ h1, h2, h3, h4, p, ul, .inset-container {
       max-width: 80%; } }
 
 body {
-  font-family: "Minotaur Light", Georgia, serif;
+  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5em;
   -webkit-font-smoothing: antialiased; }
@@ -946,12 +946,12 @@ body {
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #3b3b3b;
+  color: #7cacde;
   text-decoration: none;
   /* mobile tap color */ }
   @media (min-width: 768px) {
     a:hover, a:focus, a:visited:hover, a:visited:focus {
-      color: #242424; } }
+      color: #5795d5; } }
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -978,7 +978,7 @@ h1, .h1 {
       font-size: 30px; } }
 
 h2, .h2 {
-  font-family: "Minotaur Light", Georgia, serif;
+  font-family: Georgia, serif;
   font-size: 20px;
   line-height: 1.6em; }
   @media (min-width: 768px) {
@@ -1002,7 +1002,7 @@ p, ul {
   line-height: 1.65em;
   font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased !important;
-  color: rgba(59, 59, 59, 0.25);
+  color: rgba(74, 74, 74, 0.25);
   text-align: left !important; }
 
 /******************************************************************
@@ -1182,7 +1182,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     margin-bottom: 20px; }
   .next-project h3 {
     margin: 0px;
-    font-family: "Minotaur Light", Georgia, serif; }
+    font-family: Georgia, serif; }
 
 .menu {
   position: fixed;
@@ -1199,7 +1199,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   padding: 25px 20px; }
   @media (min-width: 768px) {
     #logo {
-      padding: 25px 35px;
+      padding: 20px 0;
       font-size: 18px; } }
 
 .link {
@@ -1235,7 +1235,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     .intro {
       max-width: 1030px; } }
   .intro h1 {
-    font-family: "Minotaur Light", Georgia, serif;
+    font-family: Georgia, serif;
     font-size: 20px;
     margin-bottom: .5em;
     padding: 0;
@@ -1255,11 +1255,11 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     padding: 0;
     max-width: 100%; }
     .intro h2 a {
-      border-bottom: 1px solid rgba(59, 59, 59, 0.3);
+      border-bottom: 1px solid rgba(124, 172, 222, 0.3);
       padding-bottom: 2px;
       transition: all .3s ease-out; }
       .intro h2 a:hover {
-        border-color: #3b3b3b; }
+        border-color: #7cacde; }
 
 .menu-wrap {
   width: 100%;
@@ -1275,12 +1275,12 @@ nav {
   nav li {
     text-align: left;
     line-height: 1.45;
-    border-bottom: 1px solid rgba(59, 59, 59, 0.15);
+    border-bottom: 1px solid rgba(74, 74, 74, 0.15);
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: auto;
     list-style: none; }
     nav li:first-child {
-      border-top: 1px solid rgba(59, 59, 59, 0.15); }
+      border-top: 1px solid rgba(74, 74, 74, 0.15); }
     nav li a {
       display: block;
       padding: 30px 20px;
@@ -1313,7 +1313,7 @@ nav {
         nav li a {
           max-width: 1030px; } }
     nav li .project-title {
-      font-family: "Minotaur Light", Georgia, serif;
+      font-family: Georgia, serif;
       font-size: 20px;
       display: block; }
       @media (min-width: 768px) {
@@ -1321,7 +1321,7 @@ nav {
           font-size: 24px;
           line-height: 1.5em; } }
     nav li .project-tagline {
-      font-family: "Minotaur Light", Georgia, serif;
+      font-family: Georgia, serif;
       font-size: 16px; }
 
 /* end nav */
@@ -1360,11 +1360,11 @@ nav {
     #content .entry-content p {
       margin-bottom: 1.5em; }
       #content .entry-content p a {
-        border-bottom: 1px solid rgba(59, 59, 59, 0.3);
+        border-bottom: 1px solid rgba(124, 172, 222, 0.3);
         padding-bottom: 2px;
         transition: all .3s ease-out; }
         #content .entry-content p a:hover {
-          border-color: #3b3b3b; }
+          border-color: #7cacde; }
     #content .entry-content h3 {
       margin: 1.75em auto 0.75em; }
     #content .entry-content ul, #content .entry-content ol {
@@ -1377,7 +1377,7 @@ nav {
       margin: 0 0 1.5em 0.75em;
       padding: 0 0 0 0.75em;
       font-style: italic;
-      color: rgba(59, 59, 59, 0.25); }
+      color: rgba(74, 74, 74, 0.25); }
     #content .entry-content dd {
       margin-left: 0;
       font-size: 0.9em;
@@ -1420,7 +1420,7 @@ nav {
   padding: 25px 20px; }
   @media (min-width: 768px) {
     #logo {
-      padding: 25px 35px;
+      padding: 20px 0;
       font-size: 18px; } }
 
 .link {

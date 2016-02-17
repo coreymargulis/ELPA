@@ -182,7 +182,7 @@ function wptutsplus_change_menu_order( $menu_order ) {
         'index.php',
         'edit.php?post_type=page',
 				'edit.php',
-				'edit.php?post_type=workshopsclasses',
+				'edit.php?post_type=member',
 				'edit.php?post_type=product',
 				'edit.php?post_type=shop_order',
 				'separator1',

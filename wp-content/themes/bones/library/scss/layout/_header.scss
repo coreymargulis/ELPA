@@ -8,13 +8,13 @@
 	position: fixed;
 	display: block;
 	left: 0;
-	font-family: $sans-regular;
+	font-family: $sans;
 	z-index: 1000;
 	font-size: 16px;
 	padding: 25px 20px;
-	
+
 	@include breakpoint($bp-medium) {
-		padding: 25px 35px;
+		padding: 20px 0;
 		font-size: 18px;
 	}
 }
@@ -25,7 +25,7 @@
 	padding: 20px 35px;
 	top: 15px;
 	right: 0;
-	font-family: $sans-regular;
+	font-family: $sans;
 	font-size: .85em;
 	z-index: 1000;
 }

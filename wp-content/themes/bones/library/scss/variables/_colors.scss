@@ -1,14 +1,13 @@
-$color-text:        #3b3b3b; //4a4a4a
-$color-text-light:  transparentize(#3b3b3b, .75);
-$color-background:  #efefef; //E9E9E9
-$color-border:      transparentize(#3b3b3b, .85);
+$color-text:        #4a4a4a; //4a4a4a
+$color-text-light:  transparentize(#4a4a4a, .75);
+$color-background:  #f8f8f8;
+$color-border:      transparentize(#4a4a4a, .85);
 
 
 $black:             #000;
-$light-gray:        #f8f9fa;
 $white:             #fff;
 
 $process:			      #D8D8D8;
 
-$link-color:        #3b3b3b;
+$link-color:        #7cacde;
 $link-hover:        darken($link-color, 9%);
