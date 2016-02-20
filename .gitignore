@@ -22,3 +22,7 @@ wp-content/*
 
 !wp-content/themes/
 !wp-content/plugins/
+
+*.codekit
+
+wp-config.php
