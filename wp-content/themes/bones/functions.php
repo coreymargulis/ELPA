@@ -267,18 +267,36 @@ function my_toolbars( $toolbars )
 }
 
 // Change title entry text
-function change_default_title( $title ){
+function wpb_change_title_text( $title ){
      $screen = get_current_screen();
 
-     if  ( 'class' == $screen->post_type ) {
-          $title = 'Enter Workshop or Class Name';
+     if  ( 'members' == $screen->post_type ) {
+          $title = 'Enter name here';
      }
 
-     else {}
+     if  ( 'events' == $screen->post_type ) {
+          $title = 'Enter event title here';
+     }
 
      return $title;
 }
 
-add_filter( 'enter_title_here', 'change_default_title' );
+add_filter( 'enter_title_here', 'wpb_change_title_text' );
+
+
+// // Change title entry text
+// function change_default_title( $title ){
+//      $screen = get_current_screen();
+//
+//      if  ( 'class' == $screen->post_type ) {
+//           $title = 'Enter Workshop or Class Name';
+//      }
+//
+//      else {}
+//
+//      return $title;
+// }
+//
+// add_filter( 'enter_title_here', 'change_default_title' );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

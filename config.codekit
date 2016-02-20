@@ -8939,11 +8939,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/archive-custom_type.php": {
+	"\/wp-content\/themes\/bones\/archive-members.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/archive-custom_type.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/archive-members.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9997,11 +9997,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/single-custom_type.php": {
+	"\/wp-content\/themes\/bones\/single-members.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/single-custom_type.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/single-members.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -14726,6 +14726,61 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/uploads\/karenmargulis-beach1-1200x964.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254293,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-1200x964.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-1200x964.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/karenmargulis-beach1-125x125.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5108,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-125x125.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-125x125.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/karenmargulis-beach1-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6903,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/karenmargulis-beach1-600x482.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71436,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-600x482.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1-600x482.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/karenmargulis-beach1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 325346,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/karenmargulis-beach1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-cron.php": {
 		"fileType": 8192,

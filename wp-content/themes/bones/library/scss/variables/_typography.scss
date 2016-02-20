@@ -1,11 +1,23 @@
 $sans:          "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $sans-italic:   "AvenirNext LT Pro Italic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $sans-bold:     "AvenirNext LT Pro Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif:         Georgia, serif;
+$serif:         "Academy", Georgia, serif;
+
+@font-face {
+    font-family: 'Academy';
+    src: url('../fonts/Academy-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Academy-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Academy-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Academy-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Academy-Regular.svg#4fd464f453d2f0eb62a5c0858a8808b0') format('svg'); /* Legacy iOS */
+
+    font-style:   normal;
+    font-weight:  400;
+}
 
 @font-face {
   font-family: 'AvenirNext LT Pro Bold';
-  src: url('../fonts/../fonts/AvenirNextLTPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirNextLTPro-Bold.eot'); /* IE9 Compat Modes */
   src: url('../fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/AvenirNextLTPro-Bold.woff') format('woff'), /* Modern Browsers */
        url('../fonts/AvenirNextLTPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */

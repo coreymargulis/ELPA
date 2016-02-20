@@ -437,8 +437,16 @@ span.apostrophe {
   font-family: 'goudy Old Style' !important; }
 
 @font-face {
+  font-family: 'Academy';
+  src: url("../fonts/Academy-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Academy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Academy-Regular.woff") format("woff"), url("../fonts/Academy-Regular.ttf") format("truetype"), url("../fonts/Academy-Regular.svg#4fd464f453d2f0eb62a5c0858a8808b0") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
   font-family: 'AvenirNext LT Pro Bold';
-  src: url("../fonts/../fonts/AvenirNextLTPro-Bold.eot");
+  src: url("../fonts/AvenirNextLTPro-Bold.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/AvenirNextLTPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro-Bold.woff") format("woff"), url("../fonts/AvenirNextLTPro-Bold.ttf") format("truetype"), url("../fonts/AvenirNextLTPro-Bold.svg#add6a56a5a62396eaea1929a4942a5a6") format("svg");
   /* Legacy iOS */
@@ -970,15 +978,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Academy", Georgia, serif;
   line-height: 1.45em;
-  font-size: 20px; }
+  font-size: 28px; }
   @media (min-width: 768px) {
     h1, .h1 {
-      font-size: 30px; } }
+      font-size: 34px; } }
 
 h2, .h2 {
-  font-family: Georgia, serif;
+  font-family: "Academy", Georgia, serif;
   font-size: 20px;
   line-height: 1.6em; }
   @media (min-width: 768px) {
@@ -1182,7 +1190,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     margin-bottom: 20px; }
   .next-project h3 {
     margin: 0px;
-    font-family: Georgia, serif; }
+    font-family: "Academy", Georgia, serif; }
 
 .menu {
   position: fixed;
@@ -1235,7 +1243,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     .intro {
       max-width: 1030px; } }
   .intro h1 {
-    font-family: Georgia, serif;
+    font-family: "Academy", Georgia, serif;
     font-size: 20px;
     margin-bottom: .5em;
     padding: 0;
@@ -1313,7 +1321,7 @@ nav {
         nav li a {
           max-width: 1030px; } }
     nav li .project-title {
-      font-family: Georgia, serif;
+      font-family: "Academy", Georgia, serif;
       font-size: 20px;
       display: block; }
       @media (min-width: 768px) {
@@ -1321,7 +1329,7 @@ nav {
           font-size: 24px;
           line-height: 1.5em; } }
     nav li .project-tagline {
-      font-family: Georgia, serif;
+      font-family: "Academy", Georgia, serif;
       font-size: 16px; }
 
 /* end nav */

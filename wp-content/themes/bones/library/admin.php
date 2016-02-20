@@ -147,14 +147,14 @@ add_filter( 'admin_footer_text', 'bones_custom_admin_footer' );
 //Custom Admin Menu
 
 // Rename Posts to News in Menu
-function wptutsplus_change_post_menu_label() {
-    global $menu;
-    global $submenu;
-    $menu[5][0] = 'Events';
-    $submenu['edit.php'][5][0] = 'Events';
-    $submenu['edit.php'][10][0] = 'Add Event';
-}
-add_action( 'admin_menu', 'wptutsplus_change_post_menu_label' );
+// function wptutsplus_change_post_menu_label() {
+//     global $menu;
+//     global $submenu;
+//     $menu[5][0] = 'Events';
+//     $submenu['edit.php'][5][0] = 'Events';
+//     $submenu['edit.php'][10][0] = 'Add Event';
+// }
+// add_action( 'admin_menu', 'wptutsplus_change_post_menu_label' );
 
 // Remove menu items for all but Administrators
 function wptutsplus_remove_comments_menu_item() {
@@ -162,6 +162,7 @@ function wptutsplus_remove_comments_menu_item() {
      if ( ! $user->has_cap( 'manage_options' ) )
     {
         remove_menu_page( 'edit.php?post_type=page' );
+				remove_menu_page( 'edit.php' );
 				remove_menu_page( 'tools.php' );
         remove_submenu_page( 'themes.php','themes.php' );
         remove_submenu_page( 'themes.php','customize.php' );
@@ -178,7 +179,7 @@ function wptutsplus_change_menu_order( $menu_order ) {
         'index.php',
         'edit.php?post_type=page',
 				'edit.php?post_type=members',
-				'edit.php',
+				'edit.php?post_type=events',
 				'separator1',
         'upload.php',
         'edit-comments.php',

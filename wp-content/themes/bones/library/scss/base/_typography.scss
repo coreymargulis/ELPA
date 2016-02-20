@@ -52,11 +52,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-family: $sans;
+	font-family: $serif;
 	line-height: 1.45em;
-	font-size: 20px;
+	font-size: 28px;
 	@include breakpoint($bp-medium) {
-		font-size: 30px;
+		font-size: 34px;
 	}
 }
 
