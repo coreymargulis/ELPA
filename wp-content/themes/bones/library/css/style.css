@@ -800,12 +800,9 @@ body {
   overflow-x: hidden;
   transition: .75s ease-out; }
 
-body.home #logo {
-  position: relative; }
-
 .wrap {
   width: 100%;
-  padding: 0px 30px;
+  padding: 0px 35px;
   position: relative;
   background-color: #f8f8f8;
   z-index: 9999; }
@@ -828,49 +825,6 @@ h1, h2, h3, h4, p, ul, .inset-container {
       .inset-container .inset-text {
         width: 50%;
         float: left; } }
-
-.alt {
-  position: relative;
-  padding-top: 4em !important;
-  padding-bottom: 4em !important;
-  margin-bottom: 0;
-  margin-top: 0; }
-  .alt:before, .alt:after {
-    content: "";
-    position: absolute;
-    background: inherit;
-    /* Match the background */
-    top: 0;
-    bottom: 0;
-    width: 9999px;
-    /* some huge width */
-    display: block; }
-  .alt:before {
-    right: 100%; }
-  .alt:after {
-    left: 100%; }
-
-.alt-pool {
-  position: relative;
-  background: #39a7fb;
-  padding-top: 3em !important;
-  padding-bottom: 1em !important;
-  margin-bottom: 0;
-  margin-top: 4em !important; }
-  .alt-pool:before, .alt-pool:after {
-    content: "";
-    position: absolute;
-    background: #39a7fb;
-    /* Match the background */
-    top: 0;
-    bottom: 0;
-    width: 9999px;
-    /* some huge width */
-    display: block; }
-  .alt-pool:before {
-    right: 100%; }
-  .alt-pool:after {
-    left: 100%; }
 
 .media {
   max-width: 100%;
@@ -1067,207 +1021,12 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     .hero-image-container {
       height: 300px; } }
 
-.profile-link-wrapper {
-  position: fixed;
-  bottom: 15px;
-  width: 100%;
-  padding-top: 0px;
-  background: none;
-  z-index: 1000;
-  overflow: hidden; }
-  .profile-link-wrapper .profile-link {
-    width: 150px;
-    padding: 20px 35px;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    font-size: .9em; }
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 9999; }
-  .overlay a {
-    color: #fff; }
-    .overlay a:hover, .overlay a:focus {
-      color: #cccccc; }
-  .overlay .overlay-close-container {
-    position: absolute;
-    display: block;
-    width: 44px;
-    height: 44px;
-    bottom: 35px;
-    left: 50%;
-    margin-left: -23px;
-    text-align: center; }
-    .overlay .overlay-close-container .overlay-close {
-      color: #fff;
-      font-size: 1em;
-      position: absolute;
-      width: 44px;
-      height: 44px;
-      overflow: hidden;
-      border: none;
-      background: url(../../library/images/cross.svg) no-repeat center center;
-      background-size: 32px 32px;
-      top: 0;
-      right: 0;
-      text-indent: 200%;
-      color: transparent;
-      outline: none; }
-  .overlay .profile {
-    text-align: center;
-    color: #cccccc;
-    position: relative;
-    top: 20%;
-    height: 50%;
-    width: 248px;
-    margin: 0 auto;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%); }
-
-.overlay-slidedown {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s, visibility 0s 0.5s;
-  /*transform: translateY(100%);
-  transition: transform 0.4s ease-in-out, visibility 0s 0.4s;*/ }
-  .overlay-slidedown .profile {
-    opacity: 0.4;
-    transform: translateY(-10%) rotateX(15deg);
-    transition: transform 0.5s, opacity 0.5s;
-    -webkit-transform: translateY(-10%) rotateX(15deg);
-    -webkit-transition: transform 0.5s, opacity 0.5s; }
-
-.overlay-slidedown.open {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.5s;
-  /*\transform: translateY(-0%);
-  transition: transform 0.4s ease-in-out;*/ }
-  .overlay-slidedown.open .profile {
-    opacity: 1;
-    transform: rotateX(0deg); }
-
-.overlay-slidedown.close .profile {
-  transform: translateY(10%) rotateX(-15deg); }
-
-.next-project {
-  text-align: left;
-  color: #fff;
-  padding: 4em 30px 4.25em 30px;
-  margin: 0 auto;
-  max-width: 730px;
-  transition: all .4s ease-in-out;
-  position: relative; }
-  @media (min-width: 768px) {
-    .next-project {
-      padding-left: 0;
-      padding-right: 0; } }
-  .next-project:before, .next-project:after {
-    content: "";
-    position: absolute;
-    background: inherit;
-    /* Match the background */
-    top: 0;
-    bottom: 0;
-    width: 9999px;
-    /* some huge width */
-    display: block; }
-  .next-project:before {
-    right: 100%; }
-  .next-project:after {
-    left: 100%; }
-  .next-project:hover {
-    opacity: .95 !important; }
-  .next-project #next-project {
-    font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-bottom: 20px; }
-  .next-project h3 {
-    margin: 0px;
-    font-family: "Academy", Georgia, serif; }
-
-.menu {
-  position: fixed;
-  top: 15px;
-  z-index: 1000; }
-
 #logo {
-  position: fixed;
+  position: relative;
   display: block;
-  left: 0;
-  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  z-index: 1000;
-  font-size: 16px;
-  padding: 25px 20px; }
-  @media (min-width: 768px) {
-    #logo {
-      padding: 20px 0;
-      font-size: 18px; } }
-
-.link {
-  position: fixed;
-  display: block;
-  padding: 20px 35px;
-  top: 15px;
-  right: 0;
-  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: .85em;
+  left: 0px;
+  padding-top: 28px;
   z-index: 1000; }
-
-.hentry header {
-  margin: 1.5em auto 0; }
-  @media (min-width: 768px) {
-    .hentry header {
-      margin: 3em auto 0; } }
-
-.intro {
-  width: 100%;
-  padding: 20px;
-  padding-top: 2em;
-  margin-bottom: 1em;
-  z-index: 0; }
-  @media (min-width: 768px) {
-    .intro {
-      max-width: 860px;
-      padding: 35px;
-      margin-bottom: 2em;
-      margin-left: auto;
-      margin-right: auto; } }
-  @media (min-width: 1030px) {
-    .intro {
-      max-width: 1030px; } }
-  .intro h1 {
-    font-family: "Academy", Georgia, serif;
-    font-size: 20px;
-    margin-bottom: .5em;
-    padding: 0;
-    max-width: 100%; }
-    @media (min-width: 480px) {
-      .intro h1 {
-        font-size: 28px; } }
-    @media (min-width: 768px) {
-      .intro h1 {
-        font-size: 40px; } }
-    @media (min-width: 1030px) {
-      .intro h1 {
-        font-size: 40px; } }
-  .intro h2 {
-    font-size: 16px;
-    -webkit-font-smoothing: auto;
-    padding: 0;
-    max-width: 100%; }
-    .intro h2 a {
-      border-bottom: 1px solid rgba(124, 172, 222, 0.3);
-      padding-bottom: 2px;
-      transition: all .3s ease-out; }
-      .intro h2 a:hover {
-        border-color: #7cacde; }
 
 .menu-wrap {
   width: 100%;
@@ -1279,89 +1038,44 @@ nav {
   nav ul {
     width: 100%;
     max-width: 100%;
-    padding: 0; }
+    padding: 0;
+    position: relative;
+    left: -8px; }
   nav li {
     text-align: left;
-    line-height: 1.45;
-    border-bottom: 1px solid rgba(74, 74, 74, 0.15);
-    text-rendering: optimizelegibility;
-    -webkit-font-smoothing: auto;
-    list-style: none; }
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-top: 10px; }
     nav li:first-child {
-      border-top: 1px solid rgba(74, 74, 74, 0.15); }
-    nav li a {
-      display: block;
-      padding: 30px 20px;
+      padding-left: 0;
       position: relative; }
-      nav li a:hover {
-        background: rgba(255, 255, 255, 0.1); }
-      nav li a:before, nav li a:after {
-        content: "";
-        position: absolute;
-        background: inherit;
-        /* Match the background */
-        top: 0;
-        bottom: 0;
-        width: 9999px;
-        /* some huge width */
-        display: block; }
-      nav li a:before {
-        right: 100%; }
-      nav li a:after {
-        left: 100%; }
-      @media (min-width: 768px) {
-        nav li a {
-          padding: 35px;
-          padding-bottom: 38px;
-          max-width: 860px;
-          margin: 0 auto;
-          transition: all .6s ease-out;
-          -webkit-transition: all .6s ease-out; } }
-      @media (min-width: 1030px) {
-        nav li a {
-          max-width: 1030px; } }
-    nav li .project-title {
-      font-family: "Academy", Georgia, serif;
-      font-size: 20px;
-      display: block; }
-      @media (min-width: 768px) {
-        nav li .project-title {
-          font-size: 24px;
-          line-height: 1.5em; } }
-    nav li .project-tagline {
-      font-family: "Academy", Georgia, serif;
-      font-size: 16px; }
+    nav li a, nav li a:visited {
+      display: block;
+      padding: 8px;
+      color: #4a4a4a; }
+      nav li a:active, nav li a:visited:active {
+        font-family: "AvenirNext LT Pro Bold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* end nav */
-#background {
-  visibility: hidden;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  z-index: -1000;
-  opacity: .25; }
-
-.copyright {
-  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  padding: 20px;
-  padding-top: 50px; }
-  @media (min-width: 768px) {
-    .copyright {
-      padding: 35px;
-      padding-top: 50px;
-      max-width: 860px;
-      margin: 0 auto; } }
-  @media (min-width: 1030px) {
-    .copyright {
-      max-width: 1030px; } }
-
 #content {
   z-index: 2;
   position: relative;
   /* entry content */
   /* end .entry-content */ }
+  #content .featured-image {
+    width: 100%;
+    height: 240px;
+    padding: 35px;
+    background-color: #7cacde;
+    margin-bottom: 20px; }
+  #content #member {
+    font-family: "Academy", Georgia, serif;
+    font-size: 32px;
+    padding: 20px 0; }
+    #content #member a, #content #member a:visited {
+      color: #4a4a4a; }
   #content .entry-content {
     margin: 1.5em auto 3em;
     padding: 0; }
@@ -1413,39 +1127,12 @@ nav {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 5px !important; }
 
-.menu {
-  position: fixed;
-  top: 15px;
-  z-index: 1000; }
-
 #logo {
-  position: fixed;
+  position: relative;
   display: block;
-  left: 0;
-  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  z-index: 1000;
-  font-size: 16px;
-  padding: 25px 20px; }
-  @media (min-width: 768px) {
-    #logo {
-      padding: 20px 0;
-      font-size: 18px; } }
-
-.link {
-  position: fixed;
-  display: block;
-  padding: 20px 35px;
-  top: 15px;
-  right: 0;
-  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: .85em;
+  left: 0px;
+  padding-top: 28px;
   z-index: 1000; }
-
-.hentry header {
-  margin: 1.5em auto 0; }
-  @media (min-width: 768px) {
-    .hentry header {
-      margin: 3em auto 0; } }
 
 /*********************
 LARGER MOBILE DEVICES

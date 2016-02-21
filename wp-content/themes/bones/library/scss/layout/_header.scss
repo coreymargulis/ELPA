@@ -1,39 +1,35 @@
-.menu {
-		position: fixed;
-		top: 15px;
-		z-index: 1000;
-	}
+// .menu {
+// 		position: fixed;
+// 		top: 15px;
+// 		z-index: 1000;
+// 	}
 
 #logo {
-	position: fixed;
+	position: relative;
 	display: block;
-	left: 0;
-	font-family: $sans;
+	left: 0px;
+	padding-top: 28px;
 	z-index: 1000;
-	font-size: 16px;
-	padding: 25px 20px;
 
 	@include breakpoint($bp-medium) {
-		padding: 20px 0;
-		font-size: 18px;
 	}
 }
 
-.link {
-	position: fixed;
-	display: block;
-	padding: 20px 35px;
-	top: 15px;
-	right: 0;
-	font-family: $sans;
-	font-size: .85em;
-	z-index: 1000;
-}
-
-.hentry header {
-	margin: 1.5em auto 0;
-
-	@include breakpoint($bp-medium) {
-		margin: 3em auto 0;
-	}
-}
+// .link {
+// 	position: fixed;
+// 	display: block;
+// 	padding: 20px 35px;
+// 	top: 15px;
+// 	right: 0;
+// 	font-family: $sans;
+// 	font-size: .85em;
+// 	z-index: 1000;
+// }
+//
+// .hentry header {
+// 	margin: 1.5em auto 0;
+//
+// 	@include breakpoint($bp-medium) {
+// 		margin: 3em auto 0;
+// 	}
+// }
