@@ -20,17 +20,17 @@ h1, h2, h3, h4, p, ul, .inset-container {
 	}
 }
 
-.inset-container {
-	margin: 2em auto 3.5em auto;
-
-	@include breakpoint($bp-medium) {
-		display: table;
-		.inset-text {
-			width: 50%;
-			float: left;
-		}
-	}
-}
+// .inset-container {
+// 	margin: 2em auto 3.5em auto;
+//
+// 	@include breakpoint($bp-medium) {
+// 		display: table;
+// 		.inset-text {
+// 			width: 50%;
+// 			float: left;
+// 		}
+// 	}
+// }
 
 // .alt {
 //   position: relative;

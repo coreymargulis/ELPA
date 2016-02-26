@@ -1,0 +1,19 @@
+#members-list {
+  ul {
+    li {
+      font-family: $serif;
+      font-size: 32px;
+      padding: 20px 0;
+
+      a, a:visited {
+        color: $color-text;
+      }
+    }
+  }
+}
+
+.main-area {
+  &.member {
+    display: none;
+  }
+}

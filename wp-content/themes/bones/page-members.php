@@ -6,21 +6,16 @@
 
 <?php get_header(); ?>
 
-			<div id="content">
+<div id="content">
 
-				<div class="featured-image">*Full width image goes here*</div>
+	<div id="featured-area">
+		<div class="featured-image">*Full width image goes here*</div>
+	</div>
 
-				<div id="inner-content" class="wrap cf">
+	<div id="main-area">
+		<?php get_template_part('memberlist'); ?>
+	</div>
 
-						<main id="main">
-
-							<?php get_template_part('memberlist'); ?>
-
-						</main>
-
-				</div>
-
-			</div>
-
+</div>
 
 <?php get_footer(); ?>

@@ -1,4 +1,4 @@
-<div class="members-list">
+<div id="members-list" class="wrap">
   <?php
   $type = 'members';
   $args=array(
@@ -8,12 +8,14 @@
 
   $my_query = null;
   $my_query = new WP_Query($args);
-  if( $my_query->have_posts() ) {
-    while ($my_query->have_posts()) : $my_query->the_post(); ?>
-      <div id="member"><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
-      <?php
-    endwhile;
-  }
+    if( $my_query->have_posts() ) {
+      echo '<ul>';
+      while ($my_query->have_posts()) : $my_query->the_post(); ?>
+        <li><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
+        <?php
+      endwhile;
+      echo '</ul>';
+    }
   wp_reset_query();  // Restore global post data stomped by the_post().
   ?>
 </div>
