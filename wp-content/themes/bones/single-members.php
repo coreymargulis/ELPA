@@ -1,6 +1,6 @@
 <?php
 /*
- Template name: Member
+ Custom single page template
 */
 ?>
 
@@ -10,7 +10,7 @@
 
 	<div class="featured-area">
 
-				<div class="featured-image member">Member artwork goes here. This div will probably need to be different</div>
+				<div class="featured-image member">Member artwork goes here.</div>
 				<div id="main" class="wrap">
 					<h1 id="page-title"><?php the_title(); ?></h1>
 					<div id="bio">Bio goes here</div>

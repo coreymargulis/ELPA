@@ -7,7 +7,6 @@
 	z-index: 9999;
 
 	@include breakpoint($bp-medium) {
-		padding: 0;
 	}
 }
 

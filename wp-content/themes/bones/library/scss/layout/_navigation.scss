@@ -7,6 +7,10 @@ nav {
     left: -8px;
 	}
 
+	li.current-menu-item {
+				font-family: $sans-bold !important;
+			}
+
 	li {
     text-align: left;
     float: left;
@@ -20,17 +24,14 @@ nav {
       position: relative;
     }
 
+
+
     a, a:visited  {
       display: block;
       padding: 8px;
       color: $color-text;
 
-      &:active {
-        font-family: $sans-bold;
-      }
-
-      &:hover {
-      }
+      &:active {}
 
       @include breakpoint($bp-medium) {
         // padding: 35px;
@@ -40,6 +41,9 @@ nav {
         //
         // transition: all .6s ease-out;
         // -webkit-transition: all .6s ease-out;
+
+				&:hover {}
+
       }
 
       @include breakpoint($bp-large) {
