@@ -9972,13 +9972,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/wp-content\/themes\/bones\/screenshot.png": {
+	"\/wp-content\/themes\/bones\/Screenshot.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 450767,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/screenshot.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/screenshot.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/Screenshot.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/Screenshot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14739,6 +14739,72 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-125x125.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6825,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-125x125.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-125x125.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9216,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-444x600.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87778,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-444x600.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-444x600.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-888x1200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 310663,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-888x1200.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-888x1200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-e1456454744455.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 505114,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-e1456454744455.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-e1456454744455.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01232e+06,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-content\/uploads\/karenmargulis-beach1-1200x964.jpg": {
 		"fileType": 16384,
@@ -20682,7 +20748,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Corey",
+"lastSavedByUser": "Corey Margulis",
 "manualImportLinks": {
 	},
 "projectAttributes": {

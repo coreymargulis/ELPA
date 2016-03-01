@@ -1,8 +1,9 @@
-// .menu {
-// 		position: fixed;
-// 		top: 15px;
-// 		z-index: 1000;
-// 	}
+.header {
+	@include breakpoint($bp-medium) {
+		width: 34%;
+		float: left;
+	}
+}
 
 #logo {
 	position: relative;

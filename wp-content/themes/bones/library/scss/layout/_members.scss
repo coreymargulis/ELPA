@@ -1,4 +1,11 @@
 #members-list {
+
+  @include breakpoint($bp-medium) {
+    margin-top: 0;
+    float: left;
+    width: 34%;
+  }
+
   ul {
     li {
       font-family: $serif;
@@ -12,23 +19,29 @@
   }
 }
 
-.main-area {
-  &.member {
-    #members-list {
-      margin-top: 2em;
-      background-color: $white;
-      ul {
-        li {
-          &:first-child {
-            padding-top: 30px;
-          }
-          &:last-child {
-            padding-bottom: 30px;
-          }
-          font-size: 20px;
-          padding: 10px 0;
-        }
-      }
-    }
-  }
-}
+//members list styling on single-members pages
+// .main-area {
+//   &.member {
+//     #members-list {
+//       margin-top: 2em;
+//       background-color: $white;
+//
+//       @include breakpoint($bp-medium) {
+//         margin-top: 0;
+//       }
+//
+//       ul {
+//         li {
+//           &:first-child {
+//             padding-top: 30px;
+//           }
+//           &:last-child {
+//             padding-bottom: 30px;
+//           }
+//           font-size: 20px;
+//           padding: 10px 0;
+//         }
+//       }
+//     }
+//   }
+// }

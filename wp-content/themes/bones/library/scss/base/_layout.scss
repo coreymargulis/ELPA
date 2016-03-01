@@ -2,9 +2,9 @@
 	width: 100%;
 	padding: 0px 35px;
 
-	position: relative;
+	// position: relative;
 	background-color: $color-background;
-	z-index: 9999;
+	// z-index: 9999;
 
 	@include breakpoint($bp-medium) {
 	}

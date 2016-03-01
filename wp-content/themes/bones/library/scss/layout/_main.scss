@@ -1,6 +1,13 @@
 #content {
 	position: relative;
 
+	.featured-area {
+		@include breakpoint($bp-medium) {
+			float: right;
+			width: 66%;
+		}
+	}
+
 	.featured-image {
 		width: 100%;
 		height: 240px;
@@ -13,7 +20,7 @@
 		}
 	}
 
-	
+
 
 
 	/* entry content */
