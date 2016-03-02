@@ -287,7 +287,7 @@ add_filter( 'enter_title_here', 'wpb_change_title_text' );
 //order by last name
 function posts_orderby_lastname ($orderby_statement)
 {
-  $orderby_statement = "RIGHT(post_title, LOCATE(' ', REVERSE(post_title)) - 1) ASC";
+  $orderby_statement = "RIGHT(post_title, LOCATE(' ', REVERSE(post_title)) - 1) DESC";
     return $orderby_statement;
 }
 
