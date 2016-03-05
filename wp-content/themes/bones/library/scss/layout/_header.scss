@@ -1,7 +1,8 @@
 .header {
 	@include breakpoint($bp-medium) {
-		width: 34%;
+		width: 490px;
 		float: left;
+		margin-bottom: 20px;
 	}
 }
 

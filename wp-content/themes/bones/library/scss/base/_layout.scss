@@ -18,39 +18,3 @@ h1, h2, h3, h4, p, ul, .inset-container {
 		max-width: 730px;
 	}
 }
-
-// .inset-container {
-// 	margin: 2em auto 3.5em auto;
-//
-// 	@include breakpoint($bp-medium) {
-// 		display: table;
-// 		.inset-text {
-// 			width: 50%;
-// 			float: left;
-// 		}
-// 	}
-// }
-
-// .alt {
-//   position: relative;
-//   padding-top: 4em !important;
-//   padding-bottom: 4em !important;
-// 	margin-bottom: 0;
-// 	margin-top: 0;
-//
-// 	&:before, &:after {
-// 	   content: "";
-// 	   position: absolute;
-// 	   background: inherit;  /* Match the background */
-// 	   top: 0;
-// 	   bottom: 0;
-// 	   width: 9999px;  /* some huge width */
-// 	   display: block;
-// 	   }
-// 	&:before {
-// 		right: 100%;
-// 	  	}
-// 	&:after {
-// 		left: 100%;
-// 		}
-// }

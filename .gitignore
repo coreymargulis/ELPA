@@ -26,3 +26,5 @@ wp-content/*
 *.codekit
 
 wp-config.php
+
+*.codekit

@@ -1,9 +1,7 @@
 #members-list {
 
   @include breakpoint($bp-medium) {
-    margin-top: 0;
-    float: left;
-    width: 34%;
+    max-width: 340px;
   }
 
   ul {
