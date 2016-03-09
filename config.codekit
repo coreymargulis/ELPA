@@ -8930,34 +8930,34 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/404.php": {
+	"\/wp-content\/themes\/elpa\/404.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/404.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/404.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/archive-members.php": {
+	"\/wp-content\/themes\/elpa\/archive-members.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/archive-members.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/archive-members.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/archive.php": {
+	"\/wp-content\/themes\/elpa\/archive.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/archive.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/archive.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/CHANGELOG.md": {
+	"\/wp-content\/themes\/elpa\/CHANGELOG.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -8966,9 +8966,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/CHANGELOG.md",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/CHANGELOG.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/CHANGELOG.html",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/CHANGELOG.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -8978,211 +8978,211 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/wp-content\/themes\/bones\/comments.php": {
+	"\/wp-content\/themes\/elpa\/comments.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/comments.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/comments.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/favicon.png": {
+	"\/wp-content\/themes\/elpa\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1223,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/favicon.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/favicon.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/favicon.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/bones\/footer.php": {
+	"\/wp-content\/themes\/elpa\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/footer.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/footer.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/functions.php": {
+	"\/wp-content\/themes\/elpa\/functions.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/functions.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/functions.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/header.php": {
+	"\/wp-content\/themes\/elpa\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/header.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/header.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/index.php": {
+	"\/wp-content\/themes\/elpa\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/index.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/admin.php": {
+	"\/wp-content\/themes\/elpa\/library\/admin.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/admin.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/admin.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/bones.php": {
+	"\/wp-content\/themes\/elpa\/library\/bones.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/bones.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/bones.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/css\/editor-style.css": {
+	"\/wp-content\/themes\/elpa\/library\/css\/editor-style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/editor-style.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/editor-style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/css\/ie.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/ie.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/bones\/library\/css\/login.css": {
+	"\/wp-content\/themes\/elpa\/library\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/login.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/css\/style.css": {
+	"\/wp-content\/themes\/elpa\/library\/css\/login.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/style.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/login.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/custom-post-type.php": {
+	"\/wp-content\/themes\/elpa\/library\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/elpa\/library\/custom-post-type.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/custom-post-type.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/custom-post-type.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/images\/apple-touch-icon.png": {
+	"\/wp-content\/themes\/elpa\/library\/images\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8439,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/apple-touch-icon.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/images\/custom-post-icon.png": {
+	"\/wp-content\/themes\/elpa\/library\/images\/custom-post-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 462,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/custom-post-icon.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/custom-post-icon.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/custom-post-icon.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/custom-post-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/images\/ELPA.png": {
+	"\/wp-content\/themes\/elpa\/library\/images\/ELPA.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 14310,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/ELPA.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/ELPA.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/ELPA.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/ELPA.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/images\/login-logo.png": {
+	"\/wp-content\/themes\/elpa\/library\/images\/login-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7019,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/login-logo.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/login-logo.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/login-logo.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/login-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/images\/win8-tile-icon.png": {
+	"\/wp-content\/themes\/elpa\/library\/images\/win8-tile-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8048,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/win8-tile-icon.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/images\/win8-tile-icon.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/win8-tile-icon.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/images\/win8-tile-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/js\/libs\/modernizr.custom.min.js": {
+	"\/wp-content\/themes\/elpa\/library\/js\/libs\/modernizr.custom.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/js\/libs\/modernizr.custom.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/js\/libs\/min\/modernizr.custom.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/js\/libs\/modernizr.custom.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/js\/libs\/min\/modernizr.custom.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/bones\/library\/js\/scripts.js": {
+	"\/wp-content\/themes\/elpa\/library\/js\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/js\/min\/scripts-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/js\/min\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/admin.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/admin.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/admin.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/admin.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/admin.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/admin.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9190,15 +9190,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/base\/_body.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/base\/_body.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/base\/_body.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_body.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/base\/_body.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_body.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9206,15 +9206,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/base\/_layout.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/base\/_layout.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/base\/_layout.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_layout.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/base\/_layout.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9222,15 +9222,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/base\/_media.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/base\/_media.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/base\/_media.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_media.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/base\/_media.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9238,15 +9238,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/base\/_typography.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/base\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/base\/_typography.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_typography.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/base\/_typography.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9254,15 +9254,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/components\/_buttons.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/components\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/components\/_buttons.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/components\/_buttons.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9270,15 +9270,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/components\/_image-hero.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/components\/_image-hero.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/components\/_image-hero.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_image-hero.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/components\/_image-hero.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_image-hero.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9286,15 +9286,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/ie.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/ie.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/ie.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/ie.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/ie.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/ie.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9302,15 +9302,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/layout\/_footer.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/layout\/_footer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/layout\/_footer.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_footer.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/layout\/_footer.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9318,15 +9318,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/layout\/_header.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/layout\/_header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/layout\/_header.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_header.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/layout\/_header.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9334,15 +9334,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/layout\/_main.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/layout\/_main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/layout\/_main.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_main.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/layout\/_main.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9350,15 +9350,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/layout\/_members.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/layout\/_members.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/layout\/_members.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_members.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/layout\/_members.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_members.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9366,15 +9366,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/layout\/_navigation.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/layout\/_navigation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/layout\/_navigation.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_navigation.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/layout\/_navigation.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_navigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9382,15 +9382,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/login.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/login.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/login.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/login.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/login.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/login.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9398,15 +9398,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/style.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/style.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/css\/style.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/style.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9414,15 +9414,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_2x.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_2x.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_2x.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_2x.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_2x.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_2x.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9430,15 +9430,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_breakpoints.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_breakpoints.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_breakpoints.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_breakpoints.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_breakpoints.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_breakpoints.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9446,15 +9446,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_colors.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_colors.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_colors.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9462,15 +9462,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_functions.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_functions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_functions.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_functions.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_functions.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_functions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9478,15 +9478,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_grid.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_grid.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_grid.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_grid.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9494,15 +9494,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_ie_grid.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_ie_grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_ie_grid.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_ie_grid.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_ie_grid.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_ie_grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9510,15 +9510,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_mixins.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_mixins.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_mixins.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_mixins.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9526,15 +9526,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_motion.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_motion.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_motion.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_motion.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_motion.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_motion.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9542,15 +9542,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_normalize.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_normalize.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_normalize.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_normalize.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9558,15 +9558,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_print.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_print.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_print.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_print.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_print.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_print.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9574,15 +9574,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/variables\/_typography.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/variables\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/variables\/_typography.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_typography.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/variables\/_typography.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9590,15 +9590,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/_breakpoint.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/_breakpoint.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/_breakpoint.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/css\/_breakpoint.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/_breakpoint.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/css\/_breakpoint.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9606,15 +9606,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_context.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_context.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_context.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/css\/_context.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_context.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/css\/_context.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9622,15 +9622,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_helpers.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_helpers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_helpers.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/css\/_helpers.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_helpers.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/css\/_helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9638,15 +9638,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_legacy-settings.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_legacy-settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_legacy-settings.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/css\/_legacy-settings.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_legacy-settings.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/css\/_legacy-settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9654,15 +9654,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_no-query.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_no-query.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_no-query.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/css\/_no-query.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_no-query.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/css\/_no-query.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9670,15 +9670,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_parsers.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_parsers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_parsers.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/css\/_parsers.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_parsers.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/css\/_parsers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9686,15 +9686,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_respond-to.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_respond-to.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_respond-to.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/css\/_respond-to.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_respond-to.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/css\/_respond-to.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9702,15 +9702,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_settings.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/_settings.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/css\/_settings.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/_settings.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9718,15 +9718,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_double.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_double.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_double.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/css\/_double.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_double.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/css\/_double.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9734,15 +9734,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_query.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_query.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_query.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/css\/_query.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_query.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/css\/_query.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9750,15 +9750,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_resolution.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_resolution.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_resolution.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/css\/_resolution.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_resolution.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/css\/_resolution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9766,15 +9766,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_single.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_single.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_single.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/css\/_single.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_single.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/css\/_single.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9782,15 +9782,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_triple.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_triple.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/_triple.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/css\/_triple.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/_triple.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/css\/_triple.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9798,15 +9798,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default-pair.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default-pair.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default-pair.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default-pair.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default-pair.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default-pair.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9814,15 +9814,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_default.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9830,15 +9830,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_double-string.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_double-string.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_double-string.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_double-string.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/double\/_double-string.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_double-string.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9846,15 +9846,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/resolution\/_resolution.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/resolution\/_resolution.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/resolution\/_resolution.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_resolution.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/resolution\/_resolution.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_resolution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9862,15 +9862,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/single\/_default.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/single\/_default.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/single\/_default.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/single\/_default.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9878,15 +9878,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/triple\/_default.scss": {
+	"\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/triple\/_default.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/triple\/_default.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/triple\/_default.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/scss\/vendors\/breakpoint\/parsers\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9894,7 +9894,7 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/bones\/library\/translation\/README.md": {
+	"\/wp-content\/themes\/elpa\/library\/translation\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -9903,9 +9903,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/translation\/README.md",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/translation\/README.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/library\/translation\/README.html",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/library\/translation\/README.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -9915,43 +9915,43 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/wp-content\/themes\/bones\/memberlist.php": {
+	"\/wp-content\/themes\/elpa\/memberlist.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/memberlist.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/memberlist.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/page-about.php": {
+	"\/wp-content\/themes\/elpa\/page-about.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/page-about.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/page-about.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/page-members.php": {
+	"\/wp-content\/themes\/elpa\/page-members.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/page-members.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/page-members.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/page.php": {
+	"\/wp-content\/themes\/elpa\/page.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/page.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/page.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/readme.md": {
+	"\/wp-content\/themes\/elpa\/readme.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -9960,9 +9960,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/readme.md",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/readme.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/readme.html",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/readme.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -9972,76 +9972,76 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/wp-content\/themes\/bones\/Screenshot.png": {
+	"\/wp-content\/themes\/elpa\/screenshot.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 450767,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/Screenshot.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/bones\/Screenshot.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/screenshot.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/elpa\/screenshot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/bones\/search.php": {
+	"\/wp-content\/themes\/elpa\/search.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/search.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/search.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/searchform.php": {
+	"\/wp-content\/themes\/elpa\/searchform.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/searchform.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/searchform.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/sidebar.php": {
+	"\/wp-content\/themes\/elpa\/sidebar.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/sidebar.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/sidebar.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/single-members.php": {
+	"\/wp-content\/themes\/elpa\/single-members.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/single-members.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/single-members.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/single.php": {
+	"\/wp-content\/themes\/elpa\/single.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/single.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/single.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/style.css": {
+	"\/wp-content\/themes\/elpa\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/style.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/bones\/taxonomy-custom_cat.php": {
+	"\/wp-content\/themes\/elpa\/taxonomy-custom_cat.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/bones\/taxonomy-custom_cat.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/elpa\/taxonomy-custom_cat.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -14739,72 +14739,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-125x125.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6825,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-125x125.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-125x125.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-150x150.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9216,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-150x150.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-150x150.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-444x600.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 87778,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-444x600.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-444x600.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-888x1200.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 310663,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-888x1200.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-888x1200.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-e1456454744455.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 505114,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-e1456454744455.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD-e1456454744455.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01232e+06,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/Fog-At-Schoodic-9x12-oil-on-linen-ME-2015-SOLD.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/wp-content\/uploads\/karenmargulis-beach1-1200x964.jpg": {
 		"fileType": 16384,
@@ -20748,7 +20682,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Corey Margulis",
+"lastSavedByUser": "Corey",
 "manualImportLinks": {
 	},
 "projectAttributes": {
