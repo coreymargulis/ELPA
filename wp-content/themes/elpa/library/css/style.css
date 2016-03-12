@@ -937,10 +937,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
   font-family: "Academy", Georgia, serif;
   line-height: 1.45em;
-  font-size: 28px; }
+  font-size: 34px; }
   @media (min-width: 768px) {
     h1, .h1 {
-      font-size: 34px; } }
+      font-size: 46px; } }
 
 h2, .h2 {
   font-family: "Academy", Georgia, serif;
@@ -958,9 +958,12 @@ h3, .h3 {
       font-size: 22px; } }
 
 p, ul {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.85em;
-  -webkit-font-smoothing: auto; }
+  margin-bottom: 1em; }
+  @media (min-width: 768px) {
+    p, ul {
+      font-size: 16px; } }
 
 .caption {
   font-size: 12px;
@@ -1067,7 +1070,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     max-width: 340px; } }
 #members-list ul li {
   font-family: "Academy", Georgia, serif;
-  font-size: 32px;
+  font-size: 24px;
   padding: 20px 0; }
   #members-list ul li a, #members-list ul li a:visited {
     color: #4a4a4a; }

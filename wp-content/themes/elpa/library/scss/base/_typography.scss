@@ -54,9 +54,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
 	font-family: $serif;
 	line-height: 1.45em;
-	font-size: 28px;
+	font-size: 34px;
 	@include breakpoint($bp-medium) {
-		font-size: 34px;
+		font-size: 46px;
 	}
 }
 
@@ -79,9 +79,14 @@ h3, .h3 {
 }
 
 p, ul {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.85em;
-	-webkit-font-smoothing: auto;
+	margin-bottom: 1em;
+	// -webkit-font-smoothing: auto;
+
+	@include breakpoint($bp-medium) {
+		font-size: 16px;
+	}
 
 	// -ms-word-break: break-all;
   // -ms-word-wrap: break-all;
