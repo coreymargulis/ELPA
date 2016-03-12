@@ -6,7 +6,9 @@
 
 <?php get_header(); ?>
 
-<div class="featured-area">
+<div id="content">
+
+	<div class="featured-area">
 
 		<?php
 			$args = array(
@@ -49,9 +51,6 @@
 		?>
 
 	</div>
-</div>
-
-<div id="content">
 
 	<div id="main-area">
 		<?php get_template_part('memberlist'); ?>
