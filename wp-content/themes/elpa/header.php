@@ -48,7 +48,7 @@
 
 				<div id="inner-header" class="wrap cf">
 
-					<a href="<?php echo home_url(); ?>"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/ELPA-Logo-horizontal.svg"></a>
+					<a href="<?php echo home_url(); ?>"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/ELPA-logo-horizontal.svg"></a>
 
 					<!-- <nav>
 						<ul>
