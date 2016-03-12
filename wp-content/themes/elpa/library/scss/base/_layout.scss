@@ -2,8 +2,8 @@
 	width: 100%;
 	padding: 0px 35px;
 
-	// position: relative;
-	background-color: $color-background;
+	position: relative;
+	// background-color: $color-background;
 	// z-index: 9999;
 
 	@include breakpoint($bp-medium) {
@@ -12,9 +12,29 @@
 
 h1, h2, h3, h4, p, ul, .inset-container {
 	width: 100%;
-	margin: 0 auto;
+	margin: 0;
 
 	@include breakpoint($bp-medium) {
 		max-width: 730px;
+	}
+}
+
+#content {
+	position: relative;
+
+	.featured-area {
+		@include breakpoint($bp-medium) {
+			position: absolute;
+			right: 0;
+			width: 66%;
+			height: 100%;
+			margin-left: 34%;
+			background-color: $white;
+		}
+		@include breakpoint($bp-large) {
+			left: 0;
+			width: 80%;
+			margin-left: 400px;
+		}
 	}
 }

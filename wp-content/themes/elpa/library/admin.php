@@ -33,7 +33,7 @@ function disable_default_dashboard_widgets() {
 	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);  // Incoming Links Widget
 	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);         // Plugins Widget
 
-	// unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);    // Quick Press Widget
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);    // Quick Press Widget
 	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_recent_drafts']);     // Recent Drafts Widget
 	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);           //
 	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);         //
@@ -90,19 +90,19 @@ function bones_rss_dashboard_widget() {
 }
 
 // calling all custom dashboard widgets
-function bones_custom_dashboard_widgets() {
-	wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
-	/*
-	Be sure to drop any other created Dashboard Widgets
-	in this function and they will all load.
-	*/
-}
+// function bones_custom_dashboard_widgets() {
+// 	wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
+// 	/*
+// 	Be sure to drop any other created Dashboard Widgets
+// 	in this function and they will all load.
+// 	*/
+// }
 
 
 // removing the dashboard widgets
 add_action( 'wp_dashboard_setup', 'disable_default_dashboard_widgets' );
-// adding any custom widgets
-add_action( 'wp_dashboard_setup', 'bones_custom_dashboard_widgets' );
+// // adding any custom widgets
+// add_action( 'wp_dashboard_setup', 'bones_custom_dashboard_widgets' );
 
 
 /************* CUSTOM LOGIN PAGE *****************/
@@ -138,7 +138,7 @@ you like.
 
 // Custom Backend Footer
 function bones_custom_admin_footer() {
-	_e( '<span id="footer-thankyou">Developed by <a href="http://yoursite.com" target="_blank">Your Site Name</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.', 'bonestheme' );
+	_e( '<span id="footer-thankyou">Developed by <a href="http://coreymargulis.com" target="_blank">Corey Margulis</a></span>.', 'bonestheme' );
 }
 
 // adding it to the admin area
@@ -161,9 +161,10 @@ function wptutsplus_remove_comments_menu_item() {
      $user = wp_get_current_user();
      if ( ! $user->has_cap( 'manage_options' ) )
     {
-        remove_menu_page( 'edit.php?post_type=page' );
+        // remove_menu_page( 'edit.php?post_type=page' );
 				remove_menu_page( 'edit.php' );
 				remove_menu_page( 'tools.php' );
+				remove_menu_page( 'edit-comments.php' );
         remove_submenu_page( 'themes.php','themes.php' );
         remove_submenu_page( 'themes.php','customize.php' );
         remove_submenu_page( 'themes.php','widgets.php' );
@@ -187,5 +188,12 @@ function wptutsplus_change_menu_order( $menu_order ) {
 }
 add_filter( 'custom_menu_order', '__return_true' );
 add_filter( 'menu_order', 'wptutsplus_change_menu_order' );
+
+//remove wordpress logo
+add_action( 'admin_bar_menu', 'remove_wp_logo', 999 );
+
+function remove_wp_logo( $wp_admin_bar ) {
+	$wp_admin_bar->remove_node( 'wp-logo' );
+}
 
 ?>

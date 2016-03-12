@@ -10,7 +10,7 @@
 
 	<div class="featured-area">
 
-				<div class="featured-image">Member artwork goes here.</div>
+				<div class="image-gallery">Member artwork goes here.</div>
 				<div id="main" class="wrap">
 					<h1 id="page-title"><?php the_title(); ?></h1>
 					<div id="bio">Bio goes here<?php the_field('bio'); ?></div>
