@@ -5,7 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
 
   @include breakpoint($bp-medium) {
-    font-size: 1.25em;
+    // font-size: 1.25em;
     // line-height: 1.75em;
   }
 }
@@ -53,7 +53,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
 	font-family: $serif;
-	line-height: 1.45em;
+	line-height: 1.15em;
 	font-size: 34px;
 	@include breakpoint($bp-medium) {
 		font-size: 46px;
@@ -61,7 +61,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font-family: $serif;
+	font-family: $sans;
 	font-size: 20px;
 	line-height: 1.6em;
 
@@ -79,33 +79,14 @@ h3, .h3 {
 }
 
 p, ul {
-	font-size: 14px;
+	// font-size: 14px;
 	line-height: 1.85em;
 	margin-bottom: 1em;
 	// -webkit-font-smoothing: auto;
 
 	@include breakpoint($bp-medium) {
-		font-size: 16px;
+		// font-size: 16px;
 	}
-
-	// -ms-word-break: break-all;
-  // -ms-word-wrap: break-all;
-  //    word-break: break-word;
-  // // cleaning up the ragged lines and breaks
-  // -webkit-hyphens: none;
-  //     -moz-hyphens: none;
-  //     -ms-hyphens: none;
-  //     hyphens: none;
-  // // sets a minimum number of characters before and after the break
-  // -webkit-hyphenate-before: 5;
-  //  -webkit-hyphenate-after: 5;
-  //          hyphenate-lines: 1;
-  // // enabling fancy ligatures when available
-  // -webkit-font-feature-settings: "liga", "dlig";
-  //  -moz-font-feature-settings: "liga=1, dlig=1";
-  //     -ms-font-feature-settings: "liga", "dlig";
-  //      -o-font-feature-settings: "liga", "dlig";
-  //         font-feature-settings: "liga", "dlig";
 }
 
 .caption {

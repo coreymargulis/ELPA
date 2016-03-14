@@ -10,7 +10,7 @@
 	}
 }
 
-h1, h2, h3, h4, p, ul, .inset-container {
+h1, h2, h3, h4, p, ul {
 	width: 100%;
 	margin: 0;
 
@@ -20,7 +20,7 @@ h1, h2, h3, h4, p, ul, .inset-container {
 }
 
 #content {
-	position: relative;
+	// position: relative;
 
 	.featured-area {
 		@include breakpoint($bp-medium) {
@@ -33,8 +33,8 @@ h1, h2, h3, h4, p, ul, .inset-container {
 		}
 		@include breakpoint($bp-large) {
 			left: 0;
-			width: 80%;
-			margin-left: 400px;
+			// width: 66%;
+			// margin-left: 400px;
 		}
 	}
 }

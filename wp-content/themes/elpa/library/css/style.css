@@ -806,106 +806,30 @@ body {
   padding: 0px 35px;
   position: relative; }
 
-h1, h2, h3, h4, p, ul, .inset-container {
+h1, h2, h3, h4, p, ul {
   width: 100%;
   margin: 0; }
   @media (min-width: 768px) {
-    h1, h2, h3, h4, p, ul, .inset-container {
+    h1, h2, h3, h4, p, ul {
       max-width: 730px; } }
 
-#content {
-  position: relative; }
-  @media (min-width: 768px) {
-    #content .featured-area {
-      position: absolute;
-      right: 0;
-      width: 66%;
-      height: 100%;
-      margin-left: 34%;
-      background-color: #fff; } }
-  @media (min-width: 1030px) {
-    #content .featured-area {
-      left: 0;
-      width: 80%;
-      margin-left: 400px; } }
-
-.media {
-  max-width: 100%;
-  margin: 2em auto 3.5em auto;
-  text-align: center;
-  /* video */ }
-  .media .caption {
-    max-width: 730px;
-    margin: 0 auto; }
-  @media (min-width: 768px) {
-    .media.inset {
-      width: 50%;
-      margin-top: 0;
-      margin-bottom: 0; }
-      .media.inset.left {
-        float: left;
-        text-align: left;
-        padding-right: 40px; }
-      .media.inset.right {
-        float: right;
-        text-align: right;
-        padding-left: 40px; } }
-  .media.inset-center {
-    text-align: center; }
-    @media (min-width: 768px) {
-      .media.inset-center {
-        max-width: 730px; } }
-  .media.outset {
-    text-align: center; }
-    @media (min-width: 768px) {
-      .media.outset {
-        max-width: 730px; } }
-    @media (min-width: 1030px) {
-      .media.outset {
-        width: 1030px;
-        max-width: 80%; } }
-  .media.fill-width {
-    width: 100%;
-    height: 700px;
-    margin-top: 0; }
-  .media ul, .media ol {
-    list-style-type: none;
-    padding-bottom: 0;
-    max-width: 100%; }
-  .media .embed-container {
-    position: relative;
-    height: 0;
-    height: auto;
-    overflow: hidden;
-    padding-bottom: 71%;
-    margin-bottom: .5em; }
-  .media .embed-container iframe, .media .embed-container object, .media .embed-container embed {
+@media (min-width: 768px) {
+  #content .featured-area {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-  .media .player .title {
-    display: none; }
-
-.video-wrap {
-  margin: 0 auto; }
-  @media (min-width: 768px) {
-    .video-wrap {
-      max-width: 730px; } }
-  @media (min-width: 1030px) {
-    .video-wrap {
-      width: 1030px;
-      max-width: 80%; } }
+    right: 0;
+    width: 66%;
+    height: 100%;
+    margin-left: 34%;
+    background-color: #fff; } }
+@media (min-width: 1030px) {
+  #content .featured-area {
+    left: 0; } }
 
 body {
   font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5em;
   -webkit-font-smoothing: antialiased; }
-  @media (min-width: 768px) {
-    body {
-      font-size: 1.25em; } }
 
 /*********************
 LINK STYLES
@@ -936,14 +860,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
   font-family: "Academy", Georgia, serif;
-  line-height: 1.45em;
+  line-height: 1.15em;
   font-size: 34px; }
   @media (min-width: 768px) {
     h1, .h1 {
       font-size: 46px; } }
 
 h2, .h2 {
-  font-family: "Academy", Georgia, serif;
+  font-family: "AvenirNext LT Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.6em; }
   @media (min-width: 768px) {
@@ -958,12 +882,8 @@ h3, .h3 {
       font-size: 22px; } }
 
 p, ul {
-  font-size: 14px;
   line-height: 1.85em;
   margin-bottom: 1em; }
-  @media (min-width: 768px) {
-    p, ul {
-      font-size: 16px; } }
 
 .caption {
   font-size: 12px;
@@ -997,36 +917,6 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.hero-image-container {
-  height: 280px; }
-  @media (min-width: 768px) {
-    .hero-image-container {
-      height: 520px; } }
-  .hero-image-container .hero-image {
-    height: 520px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    overflow: hidden;
-    width: 100%;
-    height: 100%; }
-  .hero-image-container .hero-image-caption {
-    font-size: .75em;
-    color: #fff;
-    opacity: .5;
-    max-width: 740px;
-    margin: 0 auto;
-    position: relative;
-    top: -30px;
-    text-align: right;
-    padding-right: 1.5em; }
-  @media screen and (max-height: 700px) and (min-width: 481px) {
-    .hero-image-container {
-      height: 400px; } }
-  @media screen and (max-height: 700px) {
-    .hero-image-container {
-      height: 300px; } }
-
 @media (min-width: 768px) {
   .header {
     width: 490px;
@@ -1039,6 +929,19 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   left: 0px;
   padding-top: 28px;
   z-index: 1000; }
+  @media (min-width: 768px) {
+    #logo {
+      display: none; } }
+
+#logo-full {
+  position: relative;
+  display: none;
+  left: 0px;
+  padding-top: 50px;
+  z-index: 1000; }
+  @media (min-width: 768px) {
+    #logo-full {
+      display: block; } }
 
 .featured-image {
   background-color: #7cacde;
@@ -1048,7 +951,8 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   margin-bottom: 20px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  overflow: hidden; }
   @media (min-width: 768px) {
     .featured-image {
       height: 100%;
@@ -1058,20 +962,29 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   background-color: #389d63;
   width: 100%;
   height: 50%;
-  padding: 35px;
-  margin-bottom: 20px; }
-  .image-gallery.member {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top; }
+  padding: 35px; }
+
+#bio {
+  padding-top: 2em;
+  padding-bottom: 3em;
+  max-width: 700px;
+  background-color: #fff; }
+  #bio a {
+    border-bottom: 1px solid rgba(124, 172, 222, 0.3);
+    padding-bottom: 1px; }
+
+#contact-info {
+  margin-bottom: 1em; }
+  #contact-info a:first-of-type {
+    margin-right: 10px; }
 
 @media (min-width: 768px) {
   #members-list {
     max-width: 340px; } }
 #members-list ul li {
   font-family: "Academy", Georgia, serif;
-  font-size: 24px;
-  padding: 20px 0; }
+  font-size: 24px !important;
+  padding: 12px 0; }
   #members-list ul li a, #members-list ul li a:visited {
     color: #4a4a4a; }
 
@@ -1115,6 +1028,19 @@ nav {
   left: 0px;
   padding-top: 28px;
   z-index: 1000; }
+  @media (min-width: 768px) {
+    #logo {
+      display: none; } }
+
+#logo-full {
+  position: relative;
+  display: none;
+  left: 0px;
+  padding-top: 50px;
+  z-index: 1000; }
+  @media (min-width: 768px) {
+    #logo-full {
+      display: block; } }
 
 /*********************
 LARGER MOBILE DEVICES

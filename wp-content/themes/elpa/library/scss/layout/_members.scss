@@ -1,3 +1,39 @@
+.image-gallery {
+	background-color: rgb(56, 157, 99);
+	// background-image: url('https://dl.dropboxusercontent.com/u/13041969/karenmargulis-beach1.JPG');
+	width: 100%;
+	height: 50%;
+	padding: 35px;
+	// background-size: cover;
+	// background-repeat: no-repeat;
+	// background-position: 50% 50%;
+
+	@include breakpoint($bp-medium) {
+		// height: 100%;
+		// position: fixed;
+	}
+}
+
+#bio {
+  padding-top: 2em;
+  padding-bottom: 3em;
+  max-width: 700px;
+  background-color: $white;
+
+  a {
+    border-bottom: 1px solid transparentize($link-color, .7);
+    padding-bottom: 1px;
+  }
+}
+#contact-info {
+  margin-bottom: 1em;
+  a {
+    &:first-of-type {
+      margin-right: 10px;
+    }
+  }
+}
+
 #members-list {
 
   @include breakpoint($bp-medium) {
@@ -7,8 +43,8 @@
   ul {
     li {
       font-family: $serif;
-      font-size: 24px;
-      padding: 20px 0;
+      font-size: 24px !important;
+      padding: 12px 0;
 
       a, a:visited {
         color: $color-text;
@@ -16,30 +52,3 @@
     }
   }
 }
-
-//members list styling on single-members pages
-// .main-area {
-//   &.member {
-//     #members-list {
-//       margin-top: 2em;
-//       background-color: $white;
-//
-//       @include breakpoint($bp-medium) {
-//         margin-top: 0;
-//       }
-//
-//       ul {
-//         li {
-//           &:first-child {
-//             padding-top: 30px;
-//           }
-//           &:last-child {
-//             padding-bottom: 30px;
-//           }
-//           font-size: 20px;
-//           padding: 10px 0;
-//         }
-//       }
-//     }
-//   }
-// }
