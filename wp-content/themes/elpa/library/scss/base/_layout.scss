@@ -20,7 +20,8 @@ h1, h2, h3, h4, p, ul {
 }
 
 #content {
-	// position: relative;
+	position: relative;
+	height: 100%;
 
 	.featured-area {
 		@include breakpoint($bp-medium) {

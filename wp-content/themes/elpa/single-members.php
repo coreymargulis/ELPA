@@ -15,7 +15,7 @@
 		<div id="bio" class="wrap">
 			<h1 id="page-title"><?php the_title(); ?></h1>
 			<div id="contact-info">
-				<a href="<?php the_field('website'); ?>">Website</a>
+				<a href="<?php the_field('website'); ?>">Website</a></br>
 				<a href="mailto:<?php the_field('email'); ?>">Contact</a>
 			</div>
 			<div>
