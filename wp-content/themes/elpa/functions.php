@@ -191,44 +191,7 @@ function bones_register_sidebars() {
 } // don't remove this bracket!
 
 
-/************* COMMENT LAYOUT *********************/
 
-// Comment Layout
-function bones_comments( $comment, $args, $depth ) {
-   $GLOBALS['comment'] = $comment; ?>
-  <div id="comment-<?php comment_ID(); ?>" <?php comment_class('cf'); ?>>
-    <article  class="cf">
-      <header class="comment-author vcard">
-        <?php
-        /*
-          this is the new responsive optimized comment image. It used the new HTML5 data-attribute to display comment gravatars on larger screens only. What this means is that on larger posts, mobile sites don't have a ton of requests for comment images. This makes load time incredibly fast! If you'd like to change it back, just replace it with the regular wordpress gravatar call:
-          echo get_avatar($comment,$size='32',$default='<path_to_url>' );
-        */
-        ?>
-        <?php // custom gravatar call ?>
-        <?php
-          // create variable
-          $bgauthemail = get_comment_author_email();
-        ?>
-        <img data-gravatar="http://www.gravatar.com/avatar/<?php echo md5( $bgauthemail ); ?>?s=40" class="load-gravatar avatar avatar-48 photo" height="40" width="40" src="<?php echo get_template_directory_uri(); ?>/library/images/nothing.gif" />
-        <?php // end custom gravatar call ?>
-        <?php printf(__( '<cite class="fn">%1$s</cite> %2$s', 'bonestheme' ), get_comment_author_link(), edit_comment_link(__( '(Edit)', 'bonestheme' ),'  ','') ) ?>
-        <time datetime="<?php echo comment_time('Y-m-j'); ?>"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time(__( 'F jS, Y', 'bonestheme' )); ?> </a></time>
-
-      </header>
-      <?php if ($comment->comment_approved == '0') : ?>
-        <div class="alert alert-info">
-          <p><?php _e( 'Your comment is awaiting moderation.', 'bonestheme' ) ?></p>
-        </div>
-      <?php endif; ?>
-      <section class="comment_content cf">
-        <?php comment_text() ?>
-      </section>
-      <?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
-    </article>
-  <?php // </li> is added by WordPress automatically ?>
-<?php
-} // don't remove this bracket!
 
 
 /*
@@ -291,31 +254,21 @@ function posts_orderby_lastname ($orderby_statement)
     return $orderby_statement;
 }
 
-// add_action('nav_menu_css_class', 'add_current_nav_class', 10, 2 );
-//
-// function add_current_nav_class($classes, $item) {
-//
-// 	// Getting the current post details
-// 	global $post;
-//
-// 	// Getting the post type of the current post
-// 	$current_post_type = get_post_type_object(get_post_type($post->ID));
-// 	$current_post_type_slug = $current_post_type->rewrite[slug];
-//
-// 	// Getting the URL of the menu item
-// 	$menu_slug = strtolower(trim($item->url));
-//
-// 	// If the menu item URL contains the current post types slug add the current-menu-item class
-// 	if (strpos($menu_slug,$current_post_type_slug) !== false) {
-//
-// 	   $classes[] = 'current-menu-item';
-//
-// 	}
-//
-// 	// Return the corrected set of classes to be added to the menu item
-// 	return $classes;
-//
-// 	}
+/*ADD SCRIPTS*/
+
+function my_add_scripts() {
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('flexslider', get_stylesheet_directory_uri().'/library/js/min/jquery.flexslider-min.js', array('jquery'));
+    wp_enqueue_script('flexslider-init', get_stylesheet_directory_uri().'/library/js/libs/flexslider-init.js', array('jquery', 'flexslider'));
+    wp_enqueue_script('headroom', get_stylesheet_directory_uri().'/library/js/libs/headroom.js', array('jquery'));
+    wp_enqueue_script('classie', get_stylesheet_directory_uri().'/library/js/libs/classie.js', array('jquery'));
+}
+add_action('wp_enqueue_scripts', 'my_add_scripts');
+
+function my_add_styles() {
+    wp_enqueue_style('flexslider', get_stylesheet_directory_uri().'/library/css/flexslider.css');
+}
+add_action('wp_enqueue_scripts', 'my_add_styles');
 
 
 
