@@ -258,8 +258,8 @@ function posts_orderby_lastname ($orderby_statement)
 
 function my_add_scripts() {
     wp_enqueue_script('jquery');
-    wp_enqueue_script('flexslider', get_stylesheet_directory_uri().'/library/js/min/jquery.flexslider-min.js', array('jquery'));
-    wp_enqueue_script('flexslider-init', get_stylesheet_directory_uri().'/library/js/libs/flexslider-init.js', array('jquery', 'flexslider'));
+    wp_enqueue_script('flexslider', get_stylesheet_directory_uri().'/library/js/libs/flexslider-init.js', array('jquery'));
+    wp_enqueue_script('jquery.flexslider', get_stylesheet_directory_uri().'/library/js/libs/jquery.flexslider.js', array('jquery', 'flexslider'));
     wp_enqueue_script('headroom', get_stylesheet_directory_uri().'/library/js/libs/headroom.js', array('jquery'));
     wp_enqueue_script('classie', get_stylesheet_directory_uri().'/library/js/libs/classie.js', array('jquery'));
 }

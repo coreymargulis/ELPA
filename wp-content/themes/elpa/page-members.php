@@ -27,9 +27,9 @@
 
 					$featured_query->the_post();
 
-					$rows = get_field('artwork'); // get all the rows
+					$rows = get_field('gallery'); // get all the rows
 					$first_row = $rows[0]; // get the first row
-					$first_row_image = $first_row['painting']; // get the sub field value
+					$first_row_image = $first_row['gallery']; // get the sub field value
 
 					// Note
 					// $first_row_image = 123 (image ID)

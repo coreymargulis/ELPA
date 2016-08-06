@@ -14,3 +14,14 @@
 		position: fixed;
 	}
 }
+
+.image-gallery {
+	background-color: rgb(56, 157, 99);
+	width: 100%;
+	height: 440px;
+
+	@include breakpoint($bp-medium) {
+		// height: 100%;
+		// position: fixed;
+	}
+}

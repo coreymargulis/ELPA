@@ -10,27 +10,25 @@
 
 	<div class="featured-area">
 
-		<div class="image-gallery">Member artwork goes here.
+		<div class="image-gallery">
 
 			<?php
 
-			$images = get_field('artwork');
+			$images = get_field('gallery');
 
 			if( $images ): ?>
-			    <div class="media">
 
-				    <div id="slider" class="flexslider <?php if( get_sub_field('drop-shadow')){ ?>drop-shadow-slider<?php } ?>">
+
+				    <div id="slider" class="flexslider">
 
 				        <ul class="slides">
 				            <?php foreach( $images as $image ): ?>
-				                <li>
-				                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+				                <li style="background-image: url('<?php echo $image['url']; ?>')">
 				                </li>
 				            <?php endforeach; ?>
 				        </ul>
 				    </div>
-				    <div class="caption"><?php the_sub_field("image-caption"); ?></div>
-			    </div>
+
 
 			<?php endif; ?>
 
