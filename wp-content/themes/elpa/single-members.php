@@ -23,7 +23,8 @@
 
 				        <ul class="slides">
 				            <?php foreach( $images as $image ): ?>
-				                <li style="background-image: url('<?php echo $image['url']; ?>')">
+				                <li style="background-image: url('<?php echo $image['url']; ?>')"/>
+
 				                </li>
 				            <?php endforeach; ?>
 				        </ul>

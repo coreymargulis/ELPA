@@ -75,7 +75,8 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
+  /*margin: 0 0 60px;*/
+  height: 440px;
   background: #fff;
   position: relative;
   zoom: 1;
@@ -91,7 +92,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: auto;
+  height: 440px;
   -moz-user-select: none;
 }
 .flex-viewport {
@@ -134,6 +135,7 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
   font-size: 40px;
+  margin-top: 6px;
   display: inline-block;
   content: '\f001';
   color: rgba(0, 0, 0, 0.8);
@@ -197,7 +199,7 @@ html[xmlns] .flexslider .slides {
 .flex-control-nav {
   width: 100%;
   position: absolute;
-  bottom: -40px;
+  bottom: 0px;
   text-align: center;
 }
 .flex-control-nav li {
