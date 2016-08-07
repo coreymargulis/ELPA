@@ -27,22 +27,14 @@
 
 					$featured_query->the_post();
 
-					$rows = get_field('gallery'); // get all the rows
-				  $first_row = $rows[0]; // get the first row
-					$first_row_image = $first_row['gallery']; // get the sub field value
-					//
-					// // Note
-					// // $first_row_image = 123 (image ID)
-					//
-					$image = wp_get_attachment_image_src( $first_row_image, 'full');
-					// // url = $image[0];
-					// // width = $image[1];
-					// // height = $image[2];
-					?>
-					<div class="featured-image" style="background-image: url('<?php echo $image[0]; ?>')">
-				  </div>
+						$images = get_field('gallery'); // get gallery
+						$image  = $images[0]; // get first image in the gallery [1] for second, [2] for third, and so on.
 
+						if( $image ) : // only show the image if it exists ?>
 
+							<div class="featured-image" style="background-image: url('<?php echo $image['url']; ?>')"></div>
+
+						<?php endif; ?>
 
 				<?php endwhile;
 
