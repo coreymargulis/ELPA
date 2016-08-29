@@ -28,12 +28,6 @@
 		</div>
 	</div>
 
-	<div id="contact-info" class="wrap">
-		Contact us </br>
-		<a><?php the_field('email')?></a>
-	</div>
-
-
 </div>
 
 <?php get_footer(); ?>

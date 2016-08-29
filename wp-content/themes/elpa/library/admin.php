@@ -162,9 +162,11 @@ function wptutsplus_remove_comments_menu_item() {
      if ( ! $user->has_cap( 'manage_options' ) )
     {
         // remove_menu_page( 'edit.php?post_type=page' );
+				remove_menu_page( 'index.php' );
 				remove_menu_page( 'edit.php' );
 				remove_menu_page( 'tools.php' );
 				remove_menu_page( 'edit-comments.php' );
+				// remove_menu_page( 'edit.php?post_type=newsevents' );
         remove_submenu_page( 'themes.php','themes.php' );
         remove_submenu_page( 'themes.php','customize.php' );
         remove_submenu_page( 'themes.php','widgets.php' );
