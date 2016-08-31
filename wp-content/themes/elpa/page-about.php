@@ -10,15 +10,14 @@
 
 </div>
 <div id="main-area">
+
 	<div id="about" class="wrap">
 		<div>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<section>
-					<?php
-						the_content();
-					?>
+					<?php the_content(); ?>
 				</section>
 
 			<?php endwhile; ?>
@@ -32,7 +31,6 @@
 		Contact us </br>
 		<a><?php the_field('email')?></a>
 	</div>
-
 
 </div>
 

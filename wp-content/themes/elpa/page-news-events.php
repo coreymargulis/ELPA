@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: About
+ Template Name: News & Events
 */
 ?>
 
@@ -13,17 +13,31 @@
 	<div id="about" class="wrap">
 		<div>
 
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<?php
 
-				<section>
-					<?php
-						the_content();
-					?>
-				</section>
+			$args = array(
+				'post_type' => 'news & events',
+				'posts_per_page' => 0,
+				'orderby' => 'DESC'
+			);
 
-			<?php endwhile; ?>
+			// The Query
+			$the_query = new WP_Query( $args );
 
-			<?php endif; ?>
+			// The Loop
+			if ( $the_query->have_posts() ) {
+				echo '<ul>';
+				while ( $the_query->have_posts() ) {
+					$the_query->the_post();
+					echo '<li>' . get_the_title() . '</li>';
+				}
+				echo '</ul>';
+				/* Restore original Post Data */
+				wp_reset_postdata();
+			} else {
+				// no posts found
+			}
+			?>
 
 		</div>
 	</div>
