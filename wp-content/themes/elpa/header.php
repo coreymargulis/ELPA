@@ -54,7 +54,7 @@
 
 		<div id="container">
 
-			<header class="header" id="<?php the_title()?>">
+			<header class="header" id="hacky-<?php the_ID()?>">
 
 				<div id="inner-header" class="wrap cf">
 
@@ -62,14 +62,6 @@
 						<img id="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/ELPA-logo-horizontal.svg">
 						<img id="logo-full" src="<?php echo get_template_directory_uri(); ?>/library/images/ELPA-logo-full.svg">
 					</a>
-
-					<!-- <nav>
-						<ul>
-							<li><a href="/">Members</a></li>
-							<li><a href="/about">About us</a></li>
-							<li><a href="/events">News & Events</a></li>
-						</ul>
-					</nav> -->
 
 					<nav>
 						<?php wp_nav_menu(array(

@@ -10,36 +10,36 @@
 
 </div>
 <div id="main-area">
-	<div id="about" class="wrap">
-		<div>
 
-			<?php
+	<div id="news" class="wrap">
+		<ul>
 
-			$args = array(
-				'post_type' => 'news & events',
-				'posts_per_page' => 0,
-				'orderby' => 'DESC'
-			);
+				<?php
 
-			// The Query
-			$the_query = new WP_Query( $args );
+				$args = array(
+					'post_type' => 'news & events',
+					'posts_per_page' => 0,
+					'orderby' => 'DESC'
+				);
 
-			// The Loop
-			if ( $the_query->have_posts() ) {
-				echo '<ul>';
-				while ( $the_query->have_posts() ) {
-					$the_query->the_post();
-					echo '<li>' . get_the_title() . '</li>';
-				}
-				echo '</ul>';
-				/* Restore original Post Data */
-				wp_reset_postdata();
-			} else {
-				// no posts found
-			}
-			?>
+				// The Query
+				$the_query = new WP_Query( $args );?>
 
-		</div>
+				<?php if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+					<li>
+						<h1><?php the_title(); ?></h1>
+						<?php the_content(); ?>
+					</li>
+
+				<?php endwhile; ?>
+
+				<?php endif; ?>
+
+
+
+
+		</ul>
 	</div>
 
 </div>
