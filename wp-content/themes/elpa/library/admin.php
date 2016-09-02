@@ -182,7 +182,7 @@ function wptutsplus_change_menu_order( $menu_order ) {
         'index.php',
         'edit.php?post_type=page',
 				'edit.php?post_type=members',
-				'edit.php?post_type=events',
+				'edit.php?post_type=newsevents',
 				'separator1',
         'upload.php',
         'edit-comments.php',

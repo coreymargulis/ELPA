@@ -34,6 +34,10 @@
 
 				<?php endwhile; ?>
 
+			<?php else:
+				echo 'No events scheduled. Check back soon!';
+			?>
+
 				<?php endif; ?>
 
 
