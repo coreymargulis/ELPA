@@ -17,7 +17,7 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<section>
-					<?php the_content(); ?>
+					<p><?php the_field('about', 'option'); ?></p>
 				</section>
 
 			<?php endwhile; ?>

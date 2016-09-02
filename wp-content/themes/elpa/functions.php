@@ -272,6 +272,19 @@ add_action('wp_enqueue_scripts', 'my_add_styles');
 
 
 
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page(array(
+		'page_title' 	=> 'About',
+		'menu_title'	=> 'About',
+		'menu_slug' 	=> 'about',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+
+}
+
+
 
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
